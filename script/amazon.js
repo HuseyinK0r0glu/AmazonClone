@@ -5,6 +5,7 @@
 // modules helps us avoid naming conflicts
 // we use modules to  organize our code 
 import {cart} from '../data/cart.js';
+import {products} from '../data/products.js';
 
 let productsHTML = '';     
 
