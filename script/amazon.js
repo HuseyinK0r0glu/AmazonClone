@@ -1,5 +1,11 @@
 // products are coming from the array inside of the product.js insdide of the data folder
 
+// we put all of our imports at the beginning of the file
+// we should use live server to make modules work properly
+// modules helps us avoid naming conflicts
+// we use modules to  organize our code 
+import {cart} from '../data/cart.js';
+
 let productsHTML = '';     
 
 products.forEach((product) => {
@@ -87,9 +93,5 @@ document.querySelectorAll('.js-add-to-cart')
 
       document.querySelector('.js-cart-quantity')
         .innerHTML = cartQuantity;
-
-      console.log(cartQuantity);
-      console.log(cart);
-
     });
 });
